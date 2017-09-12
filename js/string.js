@@ -41,6 +41,8 @@ var tablx = new Array(
   new Array('Xd2','kek2')
 );
 
+//test
+
 document.write(tablx + '<br>');
 document.write(tablx[1][1] + '<br>');
 
