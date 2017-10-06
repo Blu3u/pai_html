@@ -19,5 +19,11 @@ function Pies(imie = "Pies", rasa = "York", waga = 5, ulubione = []){
 }
 
 var azor = new Pies("Azor");
-var ebi = new Pies("Ebi");
+var edi = new Pies("Edi");
 var saba = new Pies("Saba");
+
+var psy = [azor, edi, saba];
+
+for (pies in psy){
+  console.log(psy[pies]);
+}
