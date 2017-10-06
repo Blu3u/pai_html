@@ -3,7 +3,6 @@
 
 //console.log(imie.substr(1, imie.length - 2));
 
-/*
 var imie = new Array();
 
 for(var i = 0; i<50; i++){
@@ -15,7 +14,7 @@ for (var element in imie) {
     console.log(element);
   }
 }
-*/
+
 
 Array.prototype.sortInt = function(){
   return this.sort(function(a,b){return a - b});
@@ -41,8 +40,6 @@ var tablx = new Array(
   new Array('Xd2','kek2')
 );
 
-//test
-
 document.write(tablx + '<br>');
 document.write(tablx[1][1] + '<br>');
 
@@ -65,3 +62,25 @@ console.log(cyfry.sortInt());
 //}
 
 //console.log( pole( parseFloat(prompt("A")) , parseFloat(prompt("B")) ));
+
+
+//napisac program obliczajacy obwod i pole koła oraz objętość stożka
+//wykorzystaj obiekt math, uzytkownik wybiera w radio button co chce obliczyc
+
+function obwod(){
+  r = document.getElementById('r').value;
+
+  document.write(r * 2 * Math.PI);
+}
+
+function pole(){
+  r = document.getElementById('r').value;
+
+  document.write(r * r * Math.PI);
+}
+
+function objetosc(){
+  r = document.getElementById('r').value;
+
+  document.write(4/3 * Math.PI * r * r * r);
+}
