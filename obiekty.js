@@ -27,3 +27,7 @@ var psy = [azor, edi, saba];
 for (pies in psy){
   console.log(psy[pies]);
 }
+
+Pies.prototype.kek = "xd";
+
+console.log(azor.kek);
